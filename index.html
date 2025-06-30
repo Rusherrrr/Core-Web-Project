@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        body {
+            background-image: linear-gradient(to top left, #82b74b, rgb(8, 41, 2) 60%);
+            font-family: Arial, Helvetica, sans-serif;
+            background-repeat: no-repeat;
+            margin: 0px;
+
+        }
+
+        header
+        {
+            position: ;
+        }
+
+        .nav-ul {
+            display: flex;
+            list-style-type: none;
+            background-image: linear-gradient(to top, rgb(8, 73, 8), #82b74b 100%);
+        }
+
+        li {
+            text-decoration: none;
+            margin: 10px auto;
+            padding: 10px;
+            color: black;
+            transition: .2s;
+            font-weight: 600;
+        }
+
+        li:hover {
+            transform: scale(1.3);
+        }
+
+        i {
+            color: black;
+        }
+
+        .home-h1 {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            display: inline;
+        }
+
+        .navbar {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-top {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .home-logo {
+            height: 80px;
+        }
+
+        .marquee-nav {
+            width: 81%;
+        }
+
+        .marquee1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            color: white;
+            font-weight: 900;
+
+        }
+        /* Navbar CSS ends */
+
+
+        /* main content  */
+        .row1
+        {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            height: 30%;
+            margin: auto;
+            margin-top: 50px;
+
+        }
+        .banner
+        {
+            width: 50%;
+            padding: 10px;
+        }
+        .highlight
+        {
+            height: 130px;
+            width: 100%;
+            color: white;
+            /* margin: 20px; */
+            font-size: 35px;
+            font-weight: 800px;
+        }
+
+        .endorsements
+        {
+            width: 100%;
+            height: 50px;
+        }
+
+        .clients
+        {
+            height: 60px;
+            margin: 10px;
+        }
+        .text-endor
+        {
+            color: #fff;
+           
+        }
+
+        .download
+        {
+            margin-top: 20px;
+        }
+
+        .brochure
+        {
+            padding: 10px 20px;
+            margin-top: 30px;
+            border-radius: 5px;
+            background-color: #82b74b;
+            color: black;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            
+
+        }
+
+        .brochure:hover
+        {
+            background-color: white;
+            color: black;
+        }
+
+
+        .letstalk
+        {
+            /* background-image: linear-gradient(to top, #82b74b, rgb(8, 41, 2) 50%); */
+            background-color: rgb(8, 41, 2)
+            height: ;
+            width: 50%;
+            padding: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px grey;
+        }
+
+        .data-input>h2
+        {
+            color: white;
+            font-weight: 900;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .input-home
+        {
+            padding: 10px;
+            width: 50%;
+            border-radius: 5px;
+        }
+
+        .label-home
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .submit-letstalk
+        {
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #82b74b;
+            color: black;
+            font-weight: 800;
+            cursor: pointer;
+            width: 54%;
+            transition: all 0.3s ease;
+
+        }
+
+        .submit-letstalk:hover
+        {
+            background-color: white;
+            color: black;
+        }
+
+        .row2
+        {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            height: 30%;
+            margin: auto;
+            margin-top: 50px;
+            /* background-color: black; */
+
+        }
+
+        .bgrow2
+        {
+            /* background-color: black; */
+            box-shadow: 0 0 5px gray;
+        }
+
+        .info-cards
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            padding: 10px;
+        }
+
+        .learners
+        {
+            height: 200px;
+            width: 30%;
+            color: white;
+            background-image: linear-gradient(to bottom, rgb(8, 73, 8), #82b74b 170%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            transition: ease 0.2s;
+            
+        }
+
+        .learners:hover
+        {
+            transform: scale(1.1);
+        }
+
+        .learners>img
+        {
+            height: 60px;
+        }
+        .learners>h2
+        {
+            font-size: 30px;
+        }
+        .learners>p
+        {   
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+
+
+        .companies
+        {
+            height: 200px;
+            width: 30%;
+            color: white;
+            background-image: linear-gradient(to bottom, rgb(8, 73, 8), #82b74b 170%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            transition: ease 0.2s;  
+        }
+
+        .companies:hover
+        {
+            transform: scale(1.1);
+        }
+
+        .companies>img
+        {
+            height:60px;
+        }
+        .companies>h2
+        {
+            font-size: 30px;
+        }
+        .companies>p
+        {   
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+
+        .salary
+        {
+            height: 200px;
+            width: 30%;
+            color: white;
+            background-image: linear-gradient(to bottom, rgb(8, 73, 8), #82b74b 170%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            transition: ease 0.2s;
+
+        }
+
+        .salary:hover
+        {
+            transform: scale(1.1);
+        }
+
+        .salary>img
+        {
+            height: 60px;
+        }
+        .salary>h2
+        {
+            font-size: 30px;
+        }
+        .salary>p
+        {   
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .training-hrs
+        {
+            height: 200px;
+            width: 30%;
+            color: white;
+            background-image: linear-gradient(to bottom, rgb(8, 73, 8), #82b74b 170%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            transition: ease 0.2s;
+
+        }
+
+        .training-hrs:hover
+        {
+            transform: scale(1.1);
+        }
+
+        .training-hrs>img
+        {
+            height: 60px;
+        }
+        .training-hrs>h2
+        {
+            font-size: 30px;
+        }
+        .training-hrs>p
+        {   
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .info-text
+        {
+            width: 40%;
+            padding: 10px;
+        }
+
+        .learn
+        {
+            color: white;
+            font-size: x-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        
+        }   
+
+        .enquire-btn>button
+        {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #82b74b;
+            font-weight: 600;
+        }
+
+        .enquire-btn>button:hover
+        {
+            background-color: white;
+            color: black;
+        }
+
+
+
+
+        /* footer  */
+        .contact-footer {
+            padding: 2rem 0;
+            background-image: linear-gradient(to top, #82b74b, rgb(8, 41, 2), transparent 80% );
+        }
+
+        .contact-footer h3 {
+            font-size: 1.3rem;
+            color: #fff;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            width: 40px;
+            height: 40px;
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0.4rem;
+            transition: all 0.4s ease;
+        }
+
+        .social-links a:hover {
+            color: black;
+            border-color: black;
+        }
+
+        .bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <video class="bg-video" autoplay muted loop>
+        <source src="Video/bgvideo2.mp4" type="video/mp4" />
+      </video>
+
+    <header>
+        <div class="nav-top">
+            <div class="home-div">
+                <img class="home-logo" src="/Assignments/Project/Images/itv_butterfly.png" alt="">
+            </div>
+
+            <div class="marquee-nav">
+                <marquee behavior="" direction="">
+                    <p class="marquee1">India’s Leading and Trusted IT Training Institute Offering Classroom & Online
+                        Training • Decode Your Dreams</p></code>
+                </marquee>
+            </div>
+        </div>
+
+
+        <div>
+
+            <nav>
+                <ul class="nav-ul">
+                    <li><a href="index.html" class="navbar" target="new"><i class="fa-solid fa-book"></i>
+                            &nbsp;Home</a></li>
+
+                    <li><a href="courses.html" class="navbar" target="new"><i class="fa-solid fa-address-card"></i>
+                            &nbsp;Courses</a></li>
+
+                    <li><a href="teachers.html" class="navbar" target="new"><i class="fa-solid fa-chalkboard-user"></i>
+                            &nbsp; Teachers</a></li>
+
+                    <li><a href="contact-us.html" class="navbar" target="new"><i class="fa-solid fa-phone"></i> &nbsp;
+                            Contact Us</a></li>
+
+                    <li><a href="loginpage.html" class="navbar" target="new"><i
+                                class="fa-solid fa-right-to-bracket"></i> &nbsp;Login</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+<div class="container">
+
+    <div class="row1">
+        <div class="banner">
+
+            <div class="highlight">
+                <strong>India’s Leading and Trusted IT Training Institute Offering Classroom & Online
+                    Training</strong>
+            </div>
+
+            <div class="endorements">
+                
+                <p class="text-endor">In association with:</p>
+                <img class="clients" src="/Images/gogle.png" alt="">
+                <img class="clients" src="/Assignments/Project/Images/nsdc.png" alt="">
+                <img class="clients" src="/Assignments/Project/Images/ibm.png" alt="">
+                <img class="clients" src="/Assignments/Project/Images/aws.png" alt="">
+            </div>
+
+            <div class="ratings-home">
+                <img src="/Assignments/Project/Images/g-review.gif" alt="">
+            </div>
+
+            <div class="download">
+                <a href="/Assignments/Project/Images/Itvedant_brochure.pdf" class="brochure" download>
+                    Download Brochure
+                </a>
+                 
+            </div>
+
+        </div>
+
+        <div class="letstalk">
+        
+            <div class="data-input">
+
+                <h2>Lets talk about your career growth!</h2>
+                <form>
+                <label class="label-home" for="">Full Name</label> <br>
+                <input class="input-home" type="text" placeholder="Your Name" id="" required> <br> <br>
+
+                <label class="label-home" for="">Mobile Number</label> <br>
+                <input class="input-home" type="tel" placeholder="Enter 10-digit Mobile Number" id="" minlength="10" maxlength="10" required><br><br>
+
+                <label class="label-home" for="">E-mail</label> <br>
+                <input class="input-home" type="email" placeholder="e.g. yourname@gmail.com" id="" required> <br>
+
+                <button class="submit-letstalk">
+                    Submit
+                </button>
+            </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br><br><br>
+
+    <div class="bgrow2">
+    <div class="row2">
+
+        <div class="info-cards">
+
+            <div class="learners">
+                <img src="/Assignments/Project/Images/learner.png" alt="">
+                <h2>40k+</h2>
+                <p>Learners trained</p>
+            </div>
+
+            <div class="companies">
+                <img src="/Assignments/Project/Images/companies.png" alt="">
+                <h2>5000+</h2>
+                <p>Hiring Companies</p>
+            </div>
+
+            <div class="salary">
+                <img src="/Assignments/Project/Images/salary.png" alt="">
+                <h2>19.5 LPA</h2>
+                <p>Highest Salary Drawn</p>
+            </div>
+
+            <div class="training-hrs">
+                <img src="/Assignments/Project/Images/clock.png" alt="">
+                <h2>65,000 hrs</h2>
+                <p>Training conducted</p>
+            </div>
+
+        </div>
+
+        <div class="info-text">
+
+            <div class="learn" >
+                <h2>When The Efforts Are Genuine, Numbers Speak Louder.</h2>
+                <p>At Itvedant, success isn’t a promise, it’s the natural outcome of our learner-first approach. From expert-led sessions to personalized career profile building, we offer the training, support, and guidance needed to transform your potential into performance.</p>
+            </div>
+
+            <div class="enquire-btn">
+
+                <button >
+                    Enquire Now
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+    </main>
+
+
+
+
+    <footer>
+
+        <div class="contact-footer">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

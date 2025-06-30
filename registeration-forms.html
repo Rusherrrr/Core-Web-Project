@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* background-image: linear-gradient(to top, rgb(8, 73, 8), #82b74b 110%); */
+            background-image: url(/Assignments/Project/Images/reg-background3.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            margin: 10px;
+        }
+
+        form {
+            width: 20%;
+            padding: 20px;
+            border-radius: 5px;
+            /* background-image: linear-gradient(to top, rgba(8, 73, 8, 0.8), rgba(130, 183, 75, 0.3)); */
+            margin: 50px auto;
+            background-image: linear-gradient(to bottom, rgb(8, 73, 8), #82b74b 170%);
+            box-shadow: 0 0 10px black;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5pxx;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="date"],
+        input[type="password"],
+        select 
+        {
+            width: 75%;
+            padding: 10px;
+            border: 2px solid;
+            border-radius: 2px;
+            
+        }
+
+        input[type="radio"],
+        {    
+            margin: 3px;
+            colo
+        }
+
+        .submit{
+            color: white;
+            background-color: black;
+            font-weight: 600;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .submit:hover
+        {
+            background-color: white;
+            color: black;
+        }
+
+        p,
+        a,
+        label,
+        input[type="checkbox"] {
+            color: white;
+        }
+
+        .gender
+        {
+            color: white;
+        }
+        .bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .home-login
+        {
+            padding: 20px;
+            color: white;
+        }
+
+        .head-img
+        {
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="home-login">
+        <a href="/Assignments/Project/index.html"><i class="fa-solid fa-house"></i></a>
+     </div>
+ 
+
+    <video class="bg-video" autoplay muted loop>
+        <source src="Video/bgvideo2.mp4" type="video/mp4" />
+      </video>
+
+
+    <form action="">
+
+        <center>
+
+            <img class="head-img" src="/Assignments/Project/Images/itv_butterfly.png" alt="">
+            <p><code>Register now to start learning today</p></code>
+
+            <br>
+
+            <div>
+                <label for=""></label>
+                <input type="text" name="Name" id="" placeholder="Full Name" required>
+            </div>
+
+            <div>
+                <label for=""></label>
+                <input type="tel" pattern="\d{10}" minlength="10" maxlength="10" name="Age" id="" placeholder="10-Digit Mobile Number" required>
+            </div>
+
+            <div>
+                <Label></Label>
+                <input type="email" name="Email" placeholder="Enter Email" required>
+            </div>
+
+            <div>
+                <Label></Label>
+                <input type="password" name="Password" placeholder="Set Password" required>
+            </div>
+            
+            <div>
+                <Label></Label>
+                <input type="text" name="Education" placeholder="Education" required>
+            </div>
+
+                <p>By signing up, you agree to our Terms , <a href="">Privacy Policy</a> and <a href="">Cookies Policy.</a></p>
+            <div>
+                <button class="submit">
+                    Submit
+                </button>
+                <p>If youre already registered <a href="/Assignments/Project/loginpage.html">Login here</a></p>
+            </div>
+
+
+        </center>
+    </form>
+
+</body>
+
+</html>
